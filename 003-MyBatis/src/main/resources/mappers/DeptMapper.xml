@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- mapper:根标签，namespace：命名空间，随便写，一般保证命名空间唯一 ，但是使用了接口的动态代理，必须写成Dao的全限定类名   -->
+<mapper namespace="com.zhaopeng.mapper.DeptMapper">
+
+    <select id="findAll" resultType="com.zhaopeng.domain.Dept">
+        select * from dept;
+    </select>
+</mapper>

@@ -1,0 +1,4 @@
+com\zhaopeng\mapper\EmpMapper.class
+com\zhaopeng\domain\Dept.class
+com\zhaopeng\domain\Emp.class
+com\zhaopeng\mapper\DeptMapper.class
