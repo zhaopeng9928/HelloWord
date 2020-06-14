@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/001-JDBC/000-JDBC.iml" filepath="$PROJECT_DIR$/001-JDBC/000-JDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/000-Test/000-Test.iml" filepath="$PROJECT_DIR$/000-Test/000-Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/001-JDBC/001-JDBC.iml" filepath="$PROJECT_DIR$/001-JDBC/001-JDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/003-MyBatis/003-MyBatis.iml" filepath="$PROJECT_DIR$/003-MyBatis/003-MyBatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/HelloWord.iml" filepath="$PROJECT_DIR$/.idea/HelloWord.iml" />
     </modules>

@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="000-JDBC" />
         <module name="000-Test" />
+        <module name="001-JDBC" />
         <module name="003-MyBatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="000-JDBC" target="1.5" />
       <module name="000-Test" target="6" />
+      <module name="001-JDBC" target="1.5" />
       <module name="003-MyBatis" target="1.5" />
     </bytecodeTargetLevel>
   </component>
