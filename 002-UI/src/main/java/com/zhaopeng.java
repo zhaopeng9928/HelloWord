@@ -6,4 +6,5 @@ package com;
  */
 public class zhaopeng {
     private String name;
+    private int age;
 }
