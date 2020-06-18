@@ -66,6 +66,14 @@ public class EmpMapperTest extends TestCase {
         this.sqlSession.commit();
     }
 
+    @Test
+    public void testselectEmpByLike() {
+        List<Emp> empList = this.empMapper.selectEmpByLike();
+        for (Emp e:empList) {
+            System.out.println(e);
+        }
+    }
+
     public void testUpdateEmp() {
         Emp emp = new Emp();
         emp.setEmpno("0001");

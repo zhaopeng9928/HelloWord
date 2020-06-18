@@ -17,7 +17,7 @@
     -->
     <!--配置 dao 中查询所有的方法 findAll() -->
     <select id="findAll" resultType="com.zhaopeng.domain.Emp">
-        select * from emp;
+        select * from emp
     </select>
 
     <select id="findById" resultType="com.zhaopeng.domain.Emp" parameterType="int">
@@ -77,4 +77,14 @@
         WHERE
         (empno = #{empno})
     </update>
+
+    <select id="selectEmpByLike" resultType="com.zhaopeng.domain.Emp">
+        select * from emp
+        <where>
+            <if test="ename!=null and ename.trim() > 0 ">
+                and name like '%${ename}%'
+            </if>
+        </where>
+
+    </select>
 </mapper>

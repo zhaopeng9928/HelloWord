@@ -34,4 +34,10 @@ public interface EmpMapper {
      * @param emp
      */
     public void updateEmp(Emp emp);
+
+    /**
+     * 姓名的模糊查询
+     * @param
+     */
+    public List<Emp> selectEmpByLike();
 }

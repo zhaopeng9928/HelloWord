@@ -6,17 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="000-JDBC" />
-        <module name="000-Test" />
         <module name="001-JDBC" />
+        <module name="002-UI" />
+        <module name="004-Spring" />
+        <module name="000-JDBC" />
         <module name="003-MyBatis" />
+        <module name="000-Test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="000-JDBC" target="1.5" />
       <module name="000-Test" target="6" />
       <module name="001-JDBC" target="1.5" />
+      <module name="002-UI" target="1.5" />
       <module name="003-MyBatis" target="1.5" />
+      <module name="004-Spring" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
