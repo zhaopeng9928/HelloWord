@@ -20,7 +20,7 @@
       <module name="001-JDBC" target="1.5" />
       <module name="002-UI" target="1.5" />
       <module name="003-MyBatis" target="1.5" />
-      <module name="004-Spring" target="1.7" />
+      <module name="004-Spring" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
