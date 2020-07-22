@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/005-CRM" />
+    <file type="web" url="file://$PROJECT_DIR$/005-Dubbo/001-link-userservice-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/005-Dubbo/002-link-consumer" />
+  </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="JSX" />
   </component>
@@ -7,11 +12,21 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/003-MyBatis/pom.xml" />
-        <option value="$PROJECT_DIR$/002-UI/pom.xml" />
         <option value="$PROJECT_DIR$/004-Spring/pom.xml" />
         <option value="$PROJECT_DIR$/000-Test/pom.xml" />
         <option value="$PROJECT_DIR$/001-JDBC/pom.xml" />
+        <option value="$PROJECT_DIR$/untitled/pom.xml" />
+        <option value="$PROJECT_DIR$/006-Dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/005-Dubbo/001-link-userservice-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/005-Dubbo/002-link-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/005-Dubbo/003-link-interface/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/006-Dubbo/001-link-userservice-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/006-Dubbo/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">

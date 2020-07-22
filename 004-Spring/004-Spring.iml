@@ -2,7 +2,20 @@
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/zhaopeng/applicationContext-back.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/ba05/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/ba01/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/zhaopeng/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/ba03/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/ba02/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/ba04/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/ba06/spring-school.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/ba06/spring-student.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/ba06/total.xml</file>
+        </fileset>
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
