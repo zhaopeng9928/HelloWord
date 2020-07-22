@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/002-Web" />
     <file type="web" url="file://$PROJECT_DIR$/005-CRM" />
     <file type="web" url="file://$PROJECT_DIR$/005-Dubbo/001-link-userservice-provider" />
     <file type="web" url="file://$PROJECT_DIR$/005-Dubbo/002-link-consumer" />
@@ -20,6 +21,7 @@
         <option value="$PROJECT_DIR$/005-Dubbo/001-link-userservice-provider/pom.xml" />
         <option value="$PROJECT_DIR$/005-Dubbo/002-link-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/005-Dubbo/003-link-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/002-Web/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
